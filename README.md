@@ -1,5 +1,8 @@
 # SealedTombstone
 
+Snapshot builds use LandoriaModActions@v4.3 and the shared private references.
+Requires MOD_REFERENCES_TOKEN. Runs on main only when both versions match X.Y.Z-snapshot.
+
 Keeps your recent tombstone safe from other players while letting you approve someone you trust to recover it.
 
 ## Video demo
