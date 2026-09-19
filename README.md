@@ -1,16 +1,10 @@
 # SealedTombstone
 
-Requires MOD_REFERENCES_TOKEN. All five versions must match; only manifest and informational version use -snapshot.
-
 Keeps your recent tombstone safe from other players while letting you approve someone you trust to recover it.
 
 ## Video demo
 
 [Watch SealedTombstone in action on YouTube](https://youtu.be/WzRf7-7_DGg).
-
-## Valheim compatibility
-
-Current release: 1.0.x
 
 ## Features
 
