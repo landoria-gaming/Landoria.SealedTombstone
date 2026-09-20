@@ -17,21 +17,12 @@ namespace Landoria.SealedTombstone
 
         private Harmony _harmony;
 
-        private void RegisterPatches0()
-        {
-            _harmony.CreateClassProcessor(typeof(RpcRegistrationPatch)).Patch();
-            _harmony.CreateClassProcessor(typeof(TombstoneSetupPatch)).Patch();
-            _harmony.CreateClassProcessor(typeof(TombstoneInteractPatch)).Patch();
-            _harmony.CreateClassProcessor(typeof(PlayerDamagedPatch)).Patch();
-            _harmony.CreateClassProcessor(typeof(PlayerDeathPatch)).Patch();
-        }
-
         private void Awake()
         {
             Log = Logger;
             Logger.LogInfo($"AssemblyVersion: {GetType().Assembly.GetName().Version}.");
             _harmony = new Harmony(PluginGuid);
-            RegisterPatches0();
+            _harmony.PatchAll();
             Log.LogInfo($"{PluginName} {PluginVersion} is loaded.");
         }
 
