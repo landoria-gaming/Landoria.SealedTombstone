@@ -5,7 +5,7 @@ Keeps your recent tombstone safe from other players while letting you approve so
 ## Video demo
 
 <p align="left">
-  <a href="https://youtu.be/WzRf7-7_DGg"><img src="https://raw.githubusercontent.com/landoria-gaming/Landoria.SealedTombstone/main/assets/sealed-tombstone.jpg" alt="SealedTombstone video demo" width="300"></a>
+  <a href="https://youtu.be/WzRf7-7_DGg"><img src="https://raw.githubusercontent.com/landoria-gaming/Landoria.SealedTombstone/main/assets/sealed-tombstone.png" alt="SealedTombstone video demo" width="300"></a>
 </p>
 
 ## Features
